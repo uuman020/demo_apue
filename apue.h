@@ -6,5 +6,5 @@
 
 
 #define oops(s, n) {perror(s); exit(n);}
-#define oois(s, n) {fprintf(s); exit(n);}
+#define oois(s, n) {fprintf(stderr, s); exit(n);}
 
